@@ -1,4 +1,4 @@
-﻿ * {
+ * {
 	font-family:"Arno Pro";	
 }
 
@@ -82,6 +82,7 @@ color: #ff3651;
 width: 100%;
 height: 100%;
 margin: 0px 0px 30px;
+display: inline-block;
 }
 
 .castle-text span {
@@ -115,6 +116,10 @@ float:right;
     width: 100%;
 }
 
+.game-cover {
+	display: inline-block;
+	
+}
 .game-name {
     color: #fff;
     display: block;
