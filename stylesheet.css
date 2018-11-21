@@ -1,0 +1,168 @@
+﻿ * {
+	font-family:"Arno Pro";	
+}
+
+
+body {
+	background: url(img/bkg.jpg);
+}
+
+header {
+ display: block;
+ height: 55px;
+/* background: black; */
+/* Распределяем элементы внутри шапки */
+/* Выравниваем элементы вертикально по центру. */
+
+}
+
+.header-line {
+display: block;
+ height: 15px;
+border-bottom: 1px solid #444;	
+width:1310px;
+margin-left:10px;
+}
+
+#header-center {
+font-size: 25px;	
+}
+
+#header-center A {
+	color: white; /* Цвет ссылок */
+	text-decoration: none;
+   }
+  
+#header-center A:active {
+    color: gray; /* Цвет активных ссылок */
+   }
+   
+#header-center table {
+    width:  100%; /* Ширина таблицы */
+    border-spacing: 50px 0; /* Расстояние между ячейками */
+    padding-top: 10px;
+   }
+#header-center table.td {
+    width: 0%; /* Ширина ячеек */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+   }
+   
+#header-center td.rightcol { /* Правая ячейка */ 
+    text-align: right; /* Выравнивание по правому краю */
+   }
+
+
+
+.body-center {
+ font-size:15px;
+ color:#fff;
+margin-left:30px;
+}	
+ 
+.body-center h1{
+text-align:center;
+ margin-bottom:50px;
+ color: rgb(251,251,251);
+}
+.body-center a {
+color: #ff3651;	
+}
+
+.body-center span{
+ font-size:20px;
+ color: rgb(181,190,198);
+}
+
+
+.castle-text {
+	margin-left:30px;
+}
+
+.body-all {
+width: 100%;
+height: 100%;
+margin: 0px 0px 30px;
+}
+
+.castle-text span {
+ font-size:20px;
+ color: rgb(181,190,198);
+}
+
+
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+display:block;
+float:left;
+margin-top:30px;
+text-decoration:none;
+margin-left: 90px;
+}
+
+
+
+.game+.game {
+margin-right: 90px;
+float:right;
+}
+
+.game-cover, .game-cover img {
+    height: 100%;
+    width: 100%;
+}
+
+.game-name {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+.castle {
+margin-left: 30px;
+float:left;
+}
+
+.castle2 {
+margin-left: 30px;
+}
+
+.castle img {
+margin-right:20px;
+margin-bottom:120px;
+}
+
+.footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; 
+	bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width:1330px; /* Ширина слоя */
+	color: #777;
+	font-size:13px;
+   }
+
+.footer-bg {
+border-bottom: 1px solid #444;
+}
+
+.footer-img img {
+	width:70px;
+	height:60px;
+	float:right;
+	
+}
+
+.footer-text a {
+color: #ff3651;
+}
