@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1551726792,
+	"version": 1555411357,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -30,6 +30,7 @@
 		"images/conturtop-sheet0.png",
 		"images/russia-sheet0.png",
 		"images/england-sheet0.png",
+		"images/sprite-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
